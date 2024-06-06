@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.hover-sidebar\:block {
+  display: none;
+}
+.hover\:w-\[200px\]:hover .hover-sidebar\:block {
+  display: block;
+}
